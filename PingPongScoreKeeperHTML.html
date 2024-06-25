@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoreKeeper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="stylesheet" href="C:\Users\User\Desktop\FSWD\PingPongScoreKeeperCSS.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-one-third is-offset-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-5by3">
+                                <img src="https://cdn.pixabay.com/photo/2022/05/23/16/05/table-tennis-7216579_960_720.png"
+                                    alt="Placeholder image" />
+                            </figure>
+                        </div>
+                        <header class="card-header">
+                            <p class="card-header-title is-size-6"><span id="GameHeading">Ping Pong Score Keeper</span>
+                            </p>
+                        </header>
+                        <div class="card-content p-2">
+
+                            <div class="content">
+                                <label for="SeriesOf" class="label is-small is-inline">Series Of</label>
+                                <div class="select is-small is-rounded">
+                                    <select id="SeriesOf">
+                                        <option value="3">3</option>
+                                        <option value="5">5</option>
+                                        <option value="7">7</option>
+                                        <option value="9">9</option>
+                                        <option value="11">11</option>
+                                    </select>
+                                </div>
+                                <h1 class=" has-text-centered mg-small"><span id="P1MatchsWinDisplay">0</span> to 
+                                   <span id="P2MatchsWinDisplay">0</span></h1>
+                                <h1 class="title is-1 has-text-centered"><span id="P1Display">0</span> to <span
+                                        id="P2Display">0</span></h1>
+                                <p class="subtitle is-size-7">Use the buttons below to keep the scores.</p>
+                                <label for="PlayTo" class="label is-medium is-inline">Playing To</label>
+                                <div class="select is-rounded">
+                                    <select id="PlayTo">
+                                        <option value="3">3</option>
+                                        <option value="5">5</option>
+                                        <option value="7">7</option>
+                                        <option value="9">9</option>
+                                        <option value="11">11</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button class="is-primary button card-footer-item" id="P1Button">+1 Player One</button>
+                            <button class="is-primary button card-footer-item" id="P2Button">+1 Player Two</button>
+                            <button class="is-danger button card-footer-item" id="reset">Reset</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="C:\Users\User\Desktop\FSWD\PingPongScoreKeeperJS.js"></script>
+</body>
+
+</html>

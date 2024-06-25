@@ -1,0 +1,13 @@
+.winner{
+    color: green;
+}
+.loser{
+    color: red;
+}
+.card-header-title{
+    text-align: center;
+}
+.content h1:not(:first-child){
+    margin-top: 0.5em;
+    margin-bottom: 0.25rem;
+}
